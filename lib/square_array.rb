@@ -1,9 +1,9 @@
 def square_array(array)
   i = 0
-  new_array = []
+  squared_array = []
   while array.length < i do
-    new_array.push((array[i]) ** 2)
+    squared_array.push(array[i] ** 2)
     i += 1
   end
-  new_array
+  squared_array
 end
